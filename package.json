@@ -1,0 +1,33 @@
+{
+  "name": "newman-reporter-json-udp",
+  "version": "1.0.0",
+  "description": "A newman reporter that export summary of the run in JSON format over UDP",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MAXxATTAXx/newman-reporter-json-udp.git"
+  },
+  "keywords": [
+    "postman",
+    "newman",
+    "reporter",
+    "api",
+    "test",
+    "json",
+    "udp"
+  ],
+  "author": "julioguevara150@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "ip-regex": "^4.1.0",
+    "lodash.merge": "^4.6.2",
+    "lodash.reduce": "^4.6.0",
+    "simple-udp-stream": "^1.2.3"
+  },
+  "devDependencies": {
+    "jest-cli": "^26.1.0"
+  }
+}
